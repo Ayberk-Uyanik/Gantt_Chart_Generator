@@ -176,7 +176,7 @@ def display_gantt_chart(dataframe, type):
     # Customize the layout
     fig.update_layout(
         title=dict(
-            text=f"TBX {type} Based Gantt Chart {date.today()}", 
+            text=f"{type} Based Gantt Chart {date.today()}", 
             x=0.5, 
             font=dict(size=20)
         ), 
